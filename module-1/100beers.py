@@ -10,3 +10,14 @@
 # If x greater than 0 repeat
 # If x is not greater than 0
 # Time to buy more beer
+
+bottles = int(input("How many bottles of beer? "))
+
+def number_of_beers(bottles):
+    while bottles > 0:
+        print(f"{bottles} bottles of beer on the wall, {bottles} bottles of beer. Take one down and pass it around, ")
+        bottles = bottles - 1
+        print(f"{bottles} bottles of beer on the wall.")
+        
+    print("Time to buy more bottles of beer.")
+number_of_beers(bottles)

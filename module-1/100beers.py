@@ -1,23 +1,26 @@
 # Kelly Dimick
 # 09/07/2026
-# Assignment 1.3
+# Assignment 1.3 100 Bottles of Beer
 
-# Input from user for number of beers
-# X bottles of beer on the wall, X bottles of beer, take one down and pass it around, 
-# Remove 1 beer (X = X - 1)
-# X bottles of beer on the wall.
-# Is X greater than 0
-# If x greater than 0 repeat
-# If x is not greater than 0
-# Time to buy more beer
+while True:
+    try:
+        bottles = int(input("How many bottles of beer? "))
 
-bottles = int(input("How many bottles of beer? "))
+        if 1 <= bottles <= 100: # User technically can choose more than 100 but to stick to the original song, I'm restricting it to no more than 100.
+            break
+        else:
+            print("Please enter a number between 1 and 100.")
+
+    except:
+        print("Invalid input. Please enter a whole number.")
 
 def number_of_beers(bottles):
     while bottles > 0:
         print(f"{bottles} bottles of beer on the wall, {bottles} bottles of beer. Take one down and pass it around, ")
+
         bottles = bottles - 1
         print(f"{bottles} bottles of beer on the wall.")
-        
+
     print("Time to buy more bottles of beer.")
+
 number_of_beers(bottles)

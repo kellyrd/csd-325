@@ -21,8 +21,10 @@ def number_of_beers(bottles):
         print(f"{bottles} bottles of beer on the wall, {bottles} bottles of beer. Take one down and pass it around, ")
 
         bottles = bottles - 1
-        print(f"{bottles} bottles of beer on the wall.")
+        print(f"{bottles} bottle of beer on the wall.")
 
-    print("Time to buy more bottles of beer.")
+    
 
 number_of_beers(bottles)
+
+print("Time to buy more bottles of beer.")

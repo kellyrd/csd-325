@@ -1,4 +1,4 @@
-from student_info import Student, is_valid_course_number, is_valid_grade, is_valid_credits
+from student import Student, is_valid_course_number, is_valid_grade, is_valid_credits
 
 print("Welcome to the GPA Calculator!\n")
 

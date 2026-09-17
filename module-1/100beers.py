@@ -2,7 +2,7 @@
 # 09/07/2026
 # Assignment 1.3 100 Bottles of Beer
 
-# This program asks the user for number of Bottles of Beer (1-100) on the wall and then it counts down to zero, then informing user more beer is needed.
+# This program asks the user for number of Bottles of Beer (1-100) on the wall and then it counts down to zero, then informs user more beer is needed.
 
 while True:
     try:

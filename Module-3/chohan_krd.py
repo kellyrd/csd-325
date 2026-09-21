@@ -17,6 +17,7 @@ dice total to an even (cho) or odd (han) number.
 
 purse = 5000
 while True:  # Main game loop.
+    # Create a function here
     # Place your bet:
     print('You have', purse, 'mon. How much do you bet? (or QUIT)')
     while True:
@@ -33,6 +34,7 @@ while True:  # Main game loop.
             pot = int(pot)  # Convert pot to an integer.
             break  # Exit the loop once a valid bet is placed.
 
+    # Create a Function here
     # Roll the dice.
     dice1 = random.randint(1, 6)
     dice2 = random.randint(1, 6)
@@ -43,6 +45,7 @@ while True:  # Main game loop.
     print()
     print('    CHO (even) or HAN (odd)?')
 
+    # Create a Function here
     # Let the player bet cho or han:
     while True:
         bet = input('> ').upper()
@@ -52,11 +55,13 @@ while True:  # Main game loop.
         else:
             break
 
+    # Create a Function here
     # Reveal the dice results:
     print('The dealer lifts the cup to reveal:')
     print('  ', JAPANESE_NUMBERS[dice1], '-', JAPANESE_NUMBERS[dice2])
     print('    ', dice1, '-', dice2)
 
+    # Create a Function here
     # Determine if the player won:
     rollIsEven = (dice1 + dice2) % 2 == 0
     if rollIsEven:
@@ -66,6 +71,7 @@ while True:  # Main game loop.
 
     playerWon = bet == correctBet
 
+    # Create a Function here
     # Display the bet results:
     if playerWon:
         print('You won! You take', pot, 'mon.')
@@ -76,6 +82,7 @@ while True:  # Main game loop.
         purse = purse - pot  # Subtract the pot from player's purse.
         print('You lost!')
 
+    # Create a function here
     # Check if the player has run out of money:
     if purse == 0:
         print('You have run out of money!')

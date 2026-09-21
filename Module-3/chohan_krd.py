@@ -53,7 +53,7 @@ def apply_results(purse, pot, playerWon):
     return purse
 
 def get_bet(purse):
-    print('You have', purse, 'mon. How much do you bet? (or QUIT)')
+    print('You have', purse, 'mon. \nHow much do you want to bet? (or QUIT)')
     while True:
         pot = input('> ')
         if pot.upper() == 'QUIT':

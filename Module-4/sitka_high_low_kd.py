@@ -1,3 +1,32 @@
+"""
+Kelly Dimick
+Date: 10/02/2026
+Assignment: 4.3 – Sitka Weather Menu Program
+
+## Program Description
+This program reads weather data from the Sitka, Alaska CSV file and provides a simple text-based menu that allows the user to view high or low temperature plots.
+
+## Using the Weather Menu
+
+When the program starts, it displays a simple text-based menu:
+
+1. View high temperatures  
+2. View low temperatures  
+3. Exit  
+
+### Selecting an Option
+- Type the number of the option you want.
+- Press Enter.
+- The program will perform the selected action and return to the menu.
+
+### Menu Options Explained
+**Option 1:** Generates a Matplotlib line chart showing Sitka’s high temperatures.  
+**Option 2:** Generates a Matplotlib line chart showing Sitka’s low temperatures.  
+**Option 3:** Ends the program.
+
+You may run options 1 and 2 as many times as you like. Choose option 3 to exit.
+"""
+
 import csv
 from datetime import datetime
 

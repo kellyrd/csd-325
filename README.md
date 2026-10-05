@@ -7,7 +7,7 @@ CSD‑325 — Advanced Python
 This repository contains my coursework for CSD‑325 (Advanced Python). Each module includes hands‑on assignments designed to strengthen skills in Python programming, data processing, automation, and visualization.
 
 ---
-
+```
 📁 Repository Structure
 Code
 CSD-325/
@@ -36,7 +36,7 @@ CSD-325/
 ├── .gitattributes
 ├── .gitignore
 └── README.md
-
+```
 ---
 
 🧠 Course Focus

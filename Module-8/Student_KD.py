@@ -3,9 +3,8 @@ import json
 def load_students(student):
     for student in student:
         print(
-            f"First Name: {student['F_Name']}   ", 
-            f"Last Name: {student['L_Name']}    ", 
-            f"Student ID: {student['Student_ID']}   ", 
+            f"{student['L_Name']}, {student['F_Name']}    ", 
+            f"ID: {student['Student_ID']}   ", 
             f"Email: {student['Email']}"
             )
 

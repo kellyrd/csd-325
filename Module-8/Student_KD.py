@@ -1,11 +1,11 @@
 import json
 
-def load_students(student):
-    for student in student:
+def load_students(student_list):
+    for student in student_list:
         print(
-            f"{student['L_Name']}, {student['F_Name']}    ", 
-            f"ID: {student['Student_ID']}   ", 
-            f"Email: {student['Email']}"
+            f"{student['L_Name']}, {student['F_Name']}: ", 
+            f"ID = {student['Student_ID']},", 
+            f"Email = {student['Email']}"
             )
 
         # Load the student data from a JSON file

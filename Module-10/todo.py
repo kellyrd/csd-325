@@ -1,3 +1,7 @@
+# Kelly Dimick
+# Dimick To-Do Assignment 10.2
+#11/10/2026
+
 import tkinter as tk
 import tkinter.messagebox as msg
 
